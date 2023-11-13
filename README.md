@@ -8,7 +8,7 @@ Atualmente, esta apto para gerar ficheiros STIX de versão 2, esta por implement
 
 # Como Funciona?
 
-Esta configurado para ler ficheiros .csv com o seguinte formato:
+Esta configurado para ler ficheiros .csv sobre o formato do CNCS, que é:
 
 **IP|Dominio|Hash/Ação**
 é que os converte em um ficheiro .json com o formato STIX v2.
