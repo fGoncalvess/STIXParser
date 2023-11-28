@@ -10,7 +10,11 @@ Atualmente, esta apto para gerar ficheiros STIX de versão 2, esta por implement
 
 Esta configurado para ler ficheiros .csv sobre o formato do CNCS, que é:
 
+Antes de usar será necessaria a instalação do Python. Este parser foi desenvolvido com a versão 3.10, o minimo recomendado será 3.6.
+Depois de fazer o clone ao repositorio, vai ser necessario o seguinte comando, para fazer a instalação de todas as dependencias:
+  pip install -r requirements.txt
+
 **IP|Dominio|Hash/Ação**
-é que os converte em um ficheiro .json com o formato STIX v2.
+é que os converte em um ficheiro .json com o formato STIX v2 ou em formato .xml para suporte STIX v1.
 
 Relembro novamente que só é possivel fazer uma conversão _"Best Effort"_, sendo que podera ser necessario interveção no ficheiro para este se tornar "legivel" para a Firewall.
