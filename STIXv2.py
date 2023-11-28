@@ -39,7 +39,7 @@ def csv_to_stix(csv_file):
 def main():
     csv_file = 'IOCs.csv'
     stix_bundle = csv_to_stix(csv_file)
-    with open('output.xml', 'w') as output_file:
+    with open('outputV2.xml', 'w') as output_file:
         output_file.write(stix_bundle.serialize(pretty=True))
 
 if __name__ == "__main__":
